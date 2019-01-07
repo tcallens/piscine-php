@@ -1,0 +1,56 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    menu.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: tcallens <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/12/14 17:30:15 by tcallens          #+#    #+#              #
+#    Updated: 2019/01/07 13:59:39 by tcallens         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+p {
+	font-size: 100px;
+}
+
+.dbtn {
+	background-color: #87CEFA;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: 150%;
+}
+
+.dd {
+	position: relative;
+	display: inline-block;
+}
+
+.dd-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dd-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dd-content a:hover {background-color: #f1f1f1}
+
+.dd:hover .dd-content {
+	display: block;
+}
+
+.dd:hover .dbtn {
+	background-color: #0000FF;
+}
