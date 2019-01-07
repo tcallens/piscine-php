@@ -1,0 +1,94 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: tcallens <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/07 20:05:58 by tcallens          #+#    #+#              #
+#    Updated: 2019/01/07 20:11:44 by tcallens         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {
+	width: 100%;
+}
+.titlecenter {
+	font-family: "Impact";
+	font-size: 300%;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+.caseb{
+	width: 3vw;
+}
+.casee {
+	position : relative;
+	background-color: DarkGrey;
+	border-width: 3px;
+	padding: 0.5vw;
+	border-style: solid;
+	width: 4vw;
+	height: 5vh;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.case {
+	position : relative;
+	background-color: Aqua;
+	padding: 0.5vw;
+	border-style: solid;
+	border-width: 3px;
+	width: 4vw;
+	height: 5vh;
+}
+
+.letter {
+	overflow: auto;
+	position: relative;
+	color: white;
+	text-shadow: 0 0 3px white;
+	font-size: 2.5vh;
+	top: 0vh;
+	text-align: center;
+}
+.double-element {
+	overflow: auto;
+	position: relative;
+	color: white;
+	text-shadow: 0 0 3px white;
+	font-size: 1vh;
+	top: 0vh;
+	text-align: center;
+}
+.ne {
+	overflow: auto;
+	position: relative;
+	color: white;
+	text-shadow: 0 0 3px white;
+	font-size: 1vh;
+	top: 0.3vh;
+	text-align: left;
+}
+.double-number {
+	overflow: auto;
+	position: relative;
+	color: white;
+	text-shadow: 0 0 3px white;
+	font-size: 0.5vh;
+	top: 0.5vh;
+	text-align: center;
+}
+.na {
+	overflow: auto;
+	position: relative;
+	color: white;
+	text-shadow: 0 0 3px white;
+	font-size: 1vh;
+	text-align: right;
+	bottom: 0.3vh;
+}
+
