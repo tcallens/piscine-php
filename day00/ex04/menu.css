@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: tcallens <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/12/14 17:30:15 by tcallens          #+#    #+#              #
-#    Updated: 2019/01/07 13:59:39 by tcallens         ###   ########.fr        #
+#    Created: 2019/01/07 19:19:30 by tcallens          #+#    #+#              #
+#    Updated: 2019/01/07 19:19:32 by tcallens         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,8 @@ p {
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
-	width: 150%;
+	width: 500%;
+	box-shadow: 0px 10px 15px 0px Aqua;
 }
 
 .dd {
@@ -33,12 +34,13 @@ p {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
-	min-width: 160px;
+	min-width: 534px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dd-content a {
+	text-align: center;
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
